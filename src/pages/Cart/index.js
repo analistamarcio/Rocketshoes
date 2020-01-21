@@ -3,7 +3,7 @@ import {
   MdRemoveCircleOutline,
   MdAddCircleOutline,
   MdDelete,
-} from 'react-icons/md/index';
+} from 'react-icons/md';
 
 import { Container, ProductTable, Total } from './styles';
 
