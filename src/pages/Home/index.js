@@ -9,7 +9,6 @@ export default function Home() {
       <li>
         <img
           src="https://static.netshoes.com.br/produtos/tenis-adidas-vector-infantil/26/COL-7653-026/COL-7653-026_zoom1.jpg"
-          width="240"
           alt="Tênis"
         />
         <strong>Tênis Adidas Vector</strong>
