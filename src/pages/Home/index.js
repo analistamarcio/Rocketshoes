@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdAddShoppingCart } from 'react-icons/md';
+import { MdAddShoppingCart } from 'react-icons/md/index';
 
 import { ProductList } from './styles';
 
