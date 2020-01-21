@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { MdShoppingBasket } from 'react-icons/md/index';
+import { MdShoppingBasket } from 'react-icons/md/index.js';
 
 import { Container, Cart } from './styles';
 
