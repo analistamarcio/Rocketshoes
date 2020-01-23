@@ -20,7 +20,8 @@ module.exports = {
   rules: {
     'react/state-in-constructor': 'off',
     'prettier/prettier': 'error',
-    'react/jsx-filename-extension': ['warn', {extensions: ['.jsx', '.js']}],
+    'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
     'import/prefer-default-export': 'off',
+    'no-console': ['error', { allow: ['tron'] }],
   },
 };
