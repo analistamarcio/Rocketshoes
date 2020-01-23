@@ -9,6 +9,8 @@ import { Container, Cart } from './styles';
 import logo from '../../assets/images/logo.svg';
 
 function Header({ cartSize }) {
+  // console.tron.log(state.map(p => p.amount).reduce((a, b) => a + b, 0));
+
   return (
     <Container>
       <Link to="/">
@@ -27,5 +29,5 @@ function Header({ cartSize }) {
 }
 
 export default connect(state => ({
-  cartSize: state.cart.length,
+  cartSize: state.cart.map(p => p.amount).reduce((a, b) => a + b, 0), // state.cart.length,
 }))(Header);
