@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { MdAddShoppingCart } from 'react-icons/md';
+import { MdAddShoppingCart } from 'react-icons/md/index';
 import { formatPrice } from '../../util/format';
 import api from '../../services/api';
 
